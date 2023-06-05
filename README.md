@@ -1,2 +1,2 @@
 # kafka-example
-Kafka practice
+Sample repo to practice Kafka
