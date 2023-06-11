@@ -12,3 +12,7 @@ Sample repo to practice Kafka
 **2.Read the events from the topic through the terminal:**
 
  * Run -> $ bin/kafka-console-consumer.sh --topic gastonTopic --from-beginning --bootstrap-server localhost:9092
+
+**3.Generate a new message in the topic:**
+
+ * Do a POST call to -> http://localhost:8080/api/v1/messages?message=customMessage
