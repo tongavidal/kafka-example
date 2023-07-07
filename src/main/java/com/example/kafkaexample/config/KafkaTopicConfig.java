@@ -10,4 +10,8 @@ public class KafkaTopicConfig {
     public NewTopic gastonTopic(){
         return TopicBuilder.name("gastonTopic").build();
     }
+
+    public NewTopic afterStreamTopic(){
+        return TopicBuilder.name("afterStreamTopic").build();
+    }
 }
